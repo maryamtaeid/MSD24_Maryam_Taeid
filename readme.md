@@ -25,3 +25,5 @@ This repository contains a basic **Java Calculator** consisting of an interface 
    ```java
    double result = calc.add(3.5, 2.0); // returns 5.5
    ```
+### Exercise 2
+[Exercise 2](exercise2.md) - This exercise focuses on [brief description of the topic].

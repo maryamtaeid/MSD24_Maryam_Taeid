@@ -64,6 +64,7 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
         </plugin>
+        
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.3.0</version>
@@ -98,6 +99,14 @@
             <version>3.13.0</version>
             <configuration>
                 <release>17</release>
+            </configuration>
+        </plugin>
+    <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.0.0</version>
+            <configuration>
+                <mainClass>at.fhj.msd.Main</mainClass>
             </configuration>
         </plugin>
     </plugins>

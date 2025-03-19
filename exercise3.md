@@ -13,3 +13,6 @@
 Screenshot of  Projectstruktur:
 
 ![Projectstruktur](Resources/Images/ex3_1.png)
+changes in pom.xml
+![Build Success](resources/images/ex3_2.png)
+

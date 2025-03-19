@@ -12,4 +12,4 @@
 ## Projektstruktur
 Screenshot of  Projectstruktur:
 
-![Projectstruktur](my-project\src\main\Resources\Images/ex3_1.png)
+![Projectstruktur](Resources/Images/ex3_1.png)

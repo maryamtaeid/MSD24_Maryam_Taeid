@@ -1,2 +1,6 @@
 *.html
 *.pdf
+.idea/
+*.iml
+target/
+*.log

@@ -1,4 +1,4 @@
-package at.fhj;
+package at.fhj.msd;
 
 public class Calculator {
 

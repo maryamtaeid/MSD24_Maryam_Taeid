@@ -1,6 +1,4 @@
 *.html
 *.pdf
 .vscode/
-*.iml
 target/
-*.log

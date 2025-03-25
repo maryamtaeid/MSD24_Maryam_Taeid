@@ -28,3 +28,4 @@ This repository contains a basic **Java Calculator** consisting of an interface 
 ### Exercise 2
 [Exercise 2](exercise2.md) - This exercise focuses on [brief description of the topic].
 [exercise3](exercise3.md)- This exercise focusee on Maven and Java packages.
+[exercise4](exercise4.md)-This exercise focuse on tests.

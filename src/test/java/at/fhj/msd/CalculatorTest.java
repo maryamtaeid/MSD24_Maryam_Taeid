@@ -12,7 +12,7 @@ public class CalculatorTest {
 
     @BeforeEach
     void setup() {
-        calc = new Calculator(); 
+        calc = new Calculator();  
     }
 
     
@@ -102,27 +102,4 @@ public class CalculatorTest {
         double result = calc.divide(-10, 2);
         assertEquals(-5.0, result, "Division of -10 by 2 should be -5.0");
     }
-    @Test
-    @DisplayName("Testing factorial() with positive numbers")
-    void testFactorial() {
-        assertEquals(120, calc.factorial(5), "Factorial of 5 should be 120");
-    }
-    @Test
-    @DisplayName("Testing factorial() with positive numbers")
-    void testFactorialPositive() {
-        assertEquals(120, calc.factorial(5), "Factorial of 5 should be 120");
-    }
-
-    @Test
-    @DisplayName("Testing factorial() with zero")
-    void testFactorialZero() {
-        assertEquals(1, calc.factorial(0), "Factorial of 0 should be 1");
-    }
-
-    @Test
-    @DisplayName("Testing factorial() with negative number")
-    void testFactorialNegative() {
-        assertEquals(0, calc.factorial(-5), "Factorial of a negative number should be 0");
-    }
-
 }

@@ -102,4 +102,11 @@ public class CalculatorTest {
         double result = calc.divide(-10, 2);
         assertEquals(-5.0, result, "Division of -10 by 2 should be -5.0");
     }
+    @Test
+@DisplayName("Testing factorial() method")
+void testFactorial() {
+    Calculator calc = new Calculator();
+    assertEquals(120, calc.factorial(5), "Factorial of 5 should be 120");
+}
+
 }

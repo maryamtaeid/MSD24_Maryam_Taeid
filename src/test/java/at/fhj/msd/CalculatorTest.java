@@ -107,5 +107,22 @@ public class CalculatorTest {
     void testFactorial() {
         assertEquals(120, calc.factorial(5), "Factorial of 5 should be 120");
     }
+    @Test
+    @DisplayName("Testing factorial() with positive numbers")
+    void testFactorialPositive() {
+        assertEquals(120, calc.factorial(5), "Factorial of 5 should be 120");
+    }
+
+    @Test
+    @DisplayName("Testing factorial() with zero")
+    void testFactorialZero() {
+        assertEquals(1, calc.factorial(0), "Factorial of 0 should be 1");
+    }
+
+    @Test
+    @DisplayName("Testing factorial() with negative number")
+    void testFactorialNegative() {
+        assertEquals(0, calc.factorial(-5), "Factorial of a negative number should be 0");
+    }
 
 }

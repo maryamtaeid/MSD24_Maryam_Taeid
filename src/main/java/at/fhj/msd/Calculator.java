@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*package at.fhj.msd;
+=======
+package at.fhj.msd;
+>>>>>>> f29fb2bf67bf54e0a47f7741fb8f8210495c0b24
 
 public class Calculator {
     
@@ -31,6 +35,7 @@ public class Calculator {
     }
     
     
+<<<<<<< HEAD
 } */
 package at.fhj.msd;
 
@@ -69,4 +74,6 @@ public class Calculator {
         logger.debug("factorial called with n=" + n);
         return (n <= 1) ? (n < 0 ? 0 : 1) : n * factorial(n - 1);
     }
+=======
+>>>>>>> f29fb2bf67bf54e0a47f7741fb8f8210495c0b24
 }

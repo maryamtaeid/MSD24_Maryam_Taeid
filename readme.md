@@ -29,4 +29,11 @@ This repository contains a basic **Java Calculator** consisting of an interface 
 [Exercise 2](exercise2.md) - This exercise focuses on [brief description of the topic].
 [exercise3](exercise3.md)- This exercise focusee on Maven and Java packages.
 [exercise4](exercise4.md)-This exercise focuse on tests.
-[exercise5](exercise5.md)-
+[exercise5]
+### Exercise 5 ## Logging Konfiguration
+
+Um Logging zu aktivieren:
+
+1. Kopieren Sie die Datei `log4j2.xml.template` zu `log4j2.xml`:
+   ```bash
+   cp src/main/resources/log4j2.xml.template src/main/resources/log4j2.xml

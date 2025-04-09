@@ -1,0 +1,6 @@
+*.html
+*.pdf
+.vscode/
+target/
+*.log
+log/

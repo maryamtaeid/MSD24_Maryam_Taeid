@@ -4,3 +4,7 @@
 target/
 *.log
 log/
+*.xml
+# Ignore actual log configuration
+src/main/resources/log4j2.xml
+

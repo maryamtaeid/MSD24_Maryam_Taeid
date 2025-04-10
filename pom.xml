@@ -10,8 +10,21 @@
   <artifactId>my-project</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>my-project</name>
-  <url>http://www.example.com</url>
+  <name>My Calculator Project</name>
+  <url>https://github.com/maryamtaeid/MSD24_Maryam_Taeid.git</url>
+  <description>Ein Maven-Projekt zur Demonstration eines einfachen Rechners mit Logging, JUnit und Maven Site.</description>
+
+  <developers>
+    <developer>
+      <id>maryam</id>
+      <name>Maryam Taeid</name>
+      <email>maryam.taeid@edu.fhjoanneum.at</email>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <url>https://github.com/maryamtaeid/MSD24_Maryam_Taeid.git</url>
+    </developer>
+  </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

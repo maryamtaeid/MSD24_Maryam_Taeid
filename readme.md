@@ -30,7 +30,8 @@ This repository contains a basic **Java Calculator** consisting of an interface 
 [exercise3](exercise3.md)- This exercise focusee on Maven and Java packages.
 [exercise4](exercise4.md)-This exercise focuse on tests.
 [exercise5](exercise5.md)-für weitere Informationen zu Log4j.
-[exercise6](exercise6.md)-
+[exercise6](exercise6.md)-The documentation of this project is generated using Maven Site, including Javadoc and test results.
+
 
 ### Exercise 5 ## Logging Konfiguration
 
